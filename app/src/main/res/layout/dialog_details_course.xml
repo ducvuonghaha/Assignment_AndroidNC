@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/courseicon2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"></ImageView>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="Thông tin khóa học"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tên khóa học"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvNameCourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nội dung"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvNoiDung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:text="Ngày bắt đầu" />
+
+        <TextView
+            android:id="@+id/tvNgayBatDau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Ngày kết thúc" />
+
+        <TextView
+            android:id="@+id/tvNgayKetThuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Học phí" />
+
+        <TextView
+            android:id="@+id/tvHocPhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
